@@ -11,7 +11,7 @@ welcome.***
 ***No copying/sharing of code is allowed for the assignment. If any such case is identified, the original
 author and person who has copied penalized equally and zero marks will be awarded.***
 
-*Click [here](https://github.com/ABD-01/CSL-101-Assignments/blob/docs/CP-Assignment-2.pdf) to view CP Assignment-2 problems.*
+### *Click [here](https://github.com/ABD-01/CSL-101-Assignments/blob/docs/CP-Assignment-2.pdf) to view CP Assignment-2 problems.*
 
 1. Write a program to calculate the value of nCr.
 nCr is the number of ways of selecting
