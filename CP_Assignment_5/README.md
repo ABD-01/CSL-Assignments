@@ -5,6 +5,8 @@
 *No late submission will be allowed in any case for this particular assignment. Early submissions are welcome.*
 *No copying/sharing of code is allowed for the assignment. If any such case is identified, the original author and person who has copied penalized equally and zero marks will be awarded.*
 
+***Click [here](https://github.com/ABD-01/CSL-101-Assignments/blob/docs/CP-Assignment-2.pdf) to view CP Assignment-5 problems.***
+
 **Q.1**	Write a Python program for printing Fibonacci series for ‘n’ terms.
 
 **Q.2**	Write a Python program to Reverse a Given Number.
