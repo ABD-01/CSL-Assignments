@@ -7,7 +7,7 @@
 
 ***Click [here](https://github.com/ABD-01/CSL-101-Assignments/blob/docs/CP-Assignment-4.pdf) to view CP Assignment-4 problems.***
 
-**Q.1*	Write a C program to find whether any vowel is present (yes/no) in a given character file.
+**Q.1**	Write a C program to find whether any vowel is present (yes/no) in a given character file.
 
 **Q.2**	Write a program which reads integers from user and stores the odd integer in file called “odd.txt” and even integers in the file called “even.txt”. Also display the contents of odd and even file at the end.
 
