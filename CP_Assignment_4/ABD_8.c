@@ -25,16 +25,15 @@ int main()
         printf("There was error handling the files.\n");
         return 1;
     }
-    while(!feof(f1))
+    while (!feof(f1))
     {
-        fscanf(f1, "%d\n", &list1[i]);
-        printf("%d\n", list1[i++]);
+        fscanf(f1, "%d\n", &list1[i++]);
     }
-    while(!feof(f2))
+    while (!feof(f2))
     {
-        fscanf(f2, "%d\n", &list2[j]);
-        printf("%d\n", list2[j++]);
+        fscanf(f2, "%d\n", &list2[j++]);
     }
+
     while (l1 < i && l2 < j)
     {
         (list1[l1] < list2[l2]) ? fprintf(file, "%d\n", list1[l1++]) : fprintf(file, "%d\n", list2[l2++]);
@@ -47,6 +46,7 @@ int main()
     {
         fprintf(file, "%d\n", list2[l2++]);
     }
+
     fclose(f1);
     fclose(f2);
     fclose(file);
