@@ -3,7 +3,6 @@
 
 # include <stdio.h>
 
-int merge(int *, int, int *, int, int *);
 int main()
 {
     char file1[50], file2[50];
