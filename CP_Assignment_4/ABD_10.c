@@ -3,6 +3,7 @@
 
 # include <stdio.h>
 
+
 int main()
 {
     int spaces = 0, punc = 0, words;
