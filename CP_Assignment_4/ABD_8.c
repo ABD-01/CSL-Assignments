@@ -10,7 +10,7 @@ int main()
     i = j = l1 = l2 = 0;
     printf("Enter name of file-1 : ");
     scanf(" %[^\n]s", file1);
-    printf("Enter name of file-1 : ");
+    printf("Enter name of file-2 : ");
     scanf(" %[^\n]s", file2);
     FILE *f1 = fopen(file1, "r");
     FILE *f2 = fopen(file2, "r");
@@ -25,27 +25,18 @@ int main()
         printf("There was error handling the files.\n");
         return 1;
     }
+
     while (!feof(f1))
-    {
         fscanf(f1, "%d\n", &list1[i++]);
-    }
     while (!feof(f2))
-    {
         fscanf(f2, "%d\n", &list2[j++]);
-    }
 
     while (l1 < i && l2 < j)
-    {
         (list1[l1] < list2[l2]) ? fprintf(file, "%d\n", list1[l1++]) : fprintf(file, "%d\n", list2[l2++]);
-    }
     while (l1 < i)
-    {
         fprintf(file, "%d\n", list1[l1++]);
-    }
     while (l2 < j)
-    {
         fprintf(file, "%d\n", list2[l2++]);
-    }
 
     fclose(f1);
     fclose(f2);
